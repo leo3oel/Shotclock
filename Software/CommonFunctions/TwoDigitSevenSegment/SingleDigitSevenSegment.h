@@ -7,13 +7,13 @@ class SingleDigitSevenSegment : public Segment
 {
 private:
     BasicSegment segments[7];
-    char* segmentsOrder = new char[7]{'c', 'd', 'e', 'f', 'a', 'b', 'g'};
+    SegmentOrder segmentOrder;
 
     void initializeSegments(short startLed, short segmentLength);
 
 public:
     SingleDigitSevenSegment(short startLed, short segmentLength);
-    SingleDigitSevenSegment(short startLed, short segmentLength, char* segmentsOrder);
+    SingleDigitSevenSegment(short startLed, short segmentLength, SegmentOrder segmentsOrder);
     void setNumber(short number);
     void turnOff();
     void turnOn();

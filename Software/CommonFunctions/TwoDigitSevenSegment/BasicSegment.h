@@ -27,4 +27,22 @@ public:
     void setLedSettings(short color, short brightness);
 };
 
+
+class SegmentOrder
+{
+public:
+    short a,b,c,d,e,f,g;
+    SegmentOrder();
+    SegmentOrder(short a, short b, short c, short d, short e, short f, short g)
+    {
+        this->a = a;
+        this->b = b;
+        this->c = c;
+        this->d = d;
+        this->e = e;
+        this->f = f;
+        this->g = g;
+    }
+};
+
 #endif

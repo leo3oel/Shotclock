@@ -1,4 +1,4 @@
-#include "two_digit_seven_segment.h"
+#include "TwoDigitSevenSegment.h"
 
 TwoDigitSevenSegment::TwoDigitSevenSegment(Pin dataPin, short segmentLength)
     : dataPin(dataPin), segmentLength(segmentLength)

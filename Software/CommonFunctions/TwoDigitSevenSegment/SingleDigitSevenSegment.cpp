@@ -1,16 +1,17 @@
 #include "SingleDigitSevenSegment.h"
 
 SingleDigitSevenSegment::SingleDigitSevenSegment(short startLed, short segmentLength)
+    : segmentOrder(4,5,0,1,2,3,6)
 {
     initializeSegments(startLed, segmentLength);
 }
 
 SingleDigitSevenSegment::SingleDigitSevenSegment(
-    short startLed, short segmentLength, char* segmentsOrder
+    short startLed, short segmentLength, SegmentOrder segmentsOrder
 )
 {   
     initializeSegments(startLed, segmentLength);
-    this->segmentsOrder = segmentsOrder;
+    this->segmentOrder = segmentsOrder;
 }
 
 void SingleDigitSevenSegment::initializeSegments(short startLed, short segmentLength)
