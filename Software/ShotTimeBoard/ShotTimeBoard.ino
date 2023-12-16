@@ -1,10 +1,9 @@
 #include "Import/Arduino-7Segment/TwoDigitSevenSegment.h"
 
-#define LED_PIN 5
+#define LED_DATA_PIN 5
 #define SEGMENT_LENGTH 5
 
-
-TwoDigitSevenSegment shotClock = TwoDigitSevenSegment(LED_PIN, SEGMENT_LENGTH);
+TwoDigitSevenSegment shotClock(LED_DATA_PIN, SEGMENT_LENGTH);
 
 void setup()
 {

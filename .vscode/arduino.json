@@ -2,5 +2,5 @@
     "sketch": "Software\\ShotTimeBoard\\ShotTimeBoard.ino",
     "port": "COM4",
     "board": "arduino:avr:uno",
-    "programmer": "avrisp"
+    "programmer": "arduinoisp"
 }

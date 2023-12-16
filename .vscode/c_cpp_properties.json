@@ -5,6 +5,7 @@
             "name": "Win32",
             "compilerPath": "",
             "compilerArgs": [],
+            "intelliSenseMode": "",
             "includePath": [
                 "c:/GIT/Shotclock/**",
                 "C:/Users/leonh/AppData/Local/Arduino15/**",
@@ -12,25 +13,13 @@
                 "C:/Users/leonh/OneDrive/Dokumente/Arduino/libraries/Adafruit_NeoPixel"
             ],
             "forcedInclude": [],
+            "cStandard": "c23",
+            "cppStandard": "c++23",
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
-            ],
-            "compilerPathInCppPropertiesJson": "",
-            "mergeConfigurations": false,
-            "browse": {
-                "path": [
-                    "c:/GIT/Shotclock/**",
-                    "C:/Users/leonh/AppData/Local/Arduino15/**",
-                    "C:/Users/leonh/OneDrive/Dokumente/Arduino/libraries/**",
-                    "C:/Users/leonh/OneDrive/Dokumente/Arduino/libraries/Adafruit_NeoPixel",
-                    "${workspaceFolder}"
-                ],
-                "limitSymbolsToIncludedHeaders": true
-            },
-            "cStandard": "c23",
-            "cppStandard": "c++23"
+            ]
         },
         {
             "name": "Arduino",
@@ -57,8 +46,8 @@
             "forcedInclude": [
                 "C:\\Users\\leonh\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Arduino.h"
             ],
-            "cStandard": "c23",
-            "cppStandard": "c++23",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
             "defines": [
                 "F_CPU=16000000L",
                 "ARDUINO=10607",
